@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 
-import profileImage from "../../assets/profile-pic.png";
+import profileImage from "../../assets/moracha.png";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -90,11 +90,16 @@ export function About() {
             </ScrollAnimation>
           </div>
 
-          {/*<div className="hability">
+          <div className="hability">
           <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
             <img src={typescriptIcon} alt="Typescript" />
           </ScrollAnimation>
-          </div>*/}
+          </div>
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+            <img src={vueIcon} alt="Vuew" />
+          </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className="about-image">
